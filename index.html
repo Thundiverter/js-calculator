@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/fonts/inter.css">
+    </head>
+    <body>
+        <p id="clear">C</p>
+        <header><p id="result">result</p></header>
+        <section>
+            <p onclick="addNum(1)">1</p><p onclick="addNum(2)">2</p><p onclick="addNum(3)">3</p><p onclick="addAction('P')">+</p>
+            <p onclick="addNum(4)">4</p><p onclick="addNum(5)">5</p><p onclick="addNum(6)">6</p><p onclick="addAction('S')">-</p>
+            <p onclick="addNum(7)">7</p><p onclick="addNum(8)">8</p><p onclick="addNum(9)">9</p><p onclick="addAction('M')">×</p>
+            <p onclick="addNum(0)">0</p><p onclick="addDot()">.</p><p onclick="showResult()">=</p><p onclick="addAction('D')">÷</p>
+        </section>
+
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>

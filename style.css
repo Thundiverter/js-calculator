@@ -1,0 +1,124 @@
+body {
+  margin: 0 auto;
+  font-family: Inter;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 720px;
+}
+
+header {
+  background-color: #F2F2F2;
+  padding: 32px 48px 24px 48px;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+header::first-line {
+  font-size: 20px;
+  font-weight: 400;
+  color: #737373;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+}
+
+section p {
+  padding: 24px;
+  margin: 0px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+section p:hover {
+  background-color: #D0CECE;
+}
+
+section p:active {
+  background-color: #AFABAB;
+  -webkit-transform: translateY(1px) scale(0.99);
+          transform: translateY(1px) scale(0.99);
+}
+
+section p:nth-child(15) {
+  background-color: #4472C4;
+  color: #fff;
+}
+
+section p:nth-child(15):hover {
+  background-color: #2F5597;
+}
+
+section p:nth-child(15):active {
+  background-color: #203864;
+}
+
+p#clear {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 18px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8px;
+  width: 56px;
+  height: 56px;
+}
+
+p#clear:hover {
+  background-color: #D0CECE;
+}
+
+p#clear:active {
+  background-color: #AFABAB;
+  -webkit-transform: translateY(1px) scale(0.99);
+          transform: translateY(1px) scale(0.99);
+}
+
+p#result {
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=style.css.map */
