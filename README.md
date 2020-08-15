@@ -1,3 +1,4 @@
+### [Open in browser](https://jscalcapp.netlify.app/)
 My attempt to create a calculator that looks and works close to usual calculators.
 
 #### Current problems
